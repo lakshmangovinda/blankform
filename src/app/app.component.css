@@ -1,0 +1,936 @@
+
+
+body {
+ margin-top: 100px;
+}
+#name{
+  position: absolute;
+  width: 258px;
+  height: 48px;
+  left: 67px;
+  top: 135px;
+
+  background: #EAEAEA;
+  box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.namevalidation{
+  position: absolute;
+  width: 258px;
+  height: 20px;
+  left: 67px;
+  top: 178px;
+  border-radius: 8px;
+}
+.contact{
+  position: absolute;
+  width: 258px;
+  height: 48px;
+  left: 67px;
+  top: 208px;
+
+  background: #EAEAEA;
+  box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.spancontact{
+  position: absolute;
+  width: 258px;
+  height: 48px;
+  left: 67px;
+  top: 208px;
+}
+.contactvalidation{
+  position: absolute;
+  width: 258px;
+  height: 20px;
+  left: 67px;
+  top: 250px;
+  border-radius: 8px;
+}
+#email{
+
+  position: absolute;
+  width: 380px;
+  height: 48px;
+  left: 67px;
+  top: 281px;
+
+  background: #EAEAEA;
+  box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.emailvalidation{
+  position: absolute;
+  width: 380px;
+  height: 20px;
+  left: 67px;
+  top: 320px;
+  border-radius: 8px;
+}
+#duration{
+
+  position: absolute;
+  width: 268px;
+  height: 48px;
+  left: 67px;
+  top: 354px;
+
+  background: #EAEAEA;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.interndurtion{
+  position: absolute;
+  width: 268px;
+  height: 20px;
+  left: 67px;
+  top: 365px;
+}
+#team{
+
+  position: absolute;
+  width: 234.76px;
+  height: 48px;
+  left: 67px;
+  top: 500px;
+
+  background: #EAEAEA;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+#payment{
+  position: absolute;
+  width: 234.76px;
+  height: 48px;
+  left: 67px;
+  top: 573px;
+
+  background: #EAEAEA;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+#experience{
+  position: absolute;
+  width: 234.76px;
+  height: 48px;
+  left: 67px;
+  top: 646px;
+
+  background: #EAEAEA;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+#collegename{
+
+  position: absolute;
+  width: 496px;
+  height: 48px;
+  left: 558px;
+  top: 135px;
+
+  background: #EAEAEA;
+  box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.collegename{
+  position: absolute;
+  width: 496px;
+  height: 20px;
+  left: 558px;
+  top: 173px;
+  border-radius: 8px;
+}
+#collegecontact{
+
+  position: absolute;
+  width: 258px;
+  height: 48px;
+  left: 560px;
+  top: 208px;
+
+  background: #EAEAEA;
+  box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.collegecontact{
+  position: absolute;
+  width: 258px;
+  height: 20px;
+  left: 560px;
+  top: 243px;
+  border-radius: 8px;
+}
+#collegeadress{
+  position: absolute;
+  width: 496px;
+  height: 86px;
+  left: 558px;
+  top: 281px;
+
+  background: #EAEAEA;
+  box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  resize: none;
+}
+.collegeaddress{
+  position: absolute;
+  width: 496px;
+  height: 20px;
+  left: 558px;
+  top: 354px;
+  border-radius: 8px;
+}
+.candidateaddress{
+  position: absolute;
+  width: 496px;
+  height: 20px;
+  left: 558px;
+  top: 466px;
+  border-radius: 8px;
+}
+#candiaddress{
+  position: absolute;
+  width: 496px;
+  height: 86px;
+  left: 558px;
+  top: 392px;
+
+  background: #EAEAEA;
+  box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  resize: none;
+}
+#btns{
+  position: absolute;
+  width: 150px;
+  height: 47px;
+  left: 826px;
+  bottom: -730px;
+
+  background: #2F353A;
+  border-radius: 57px;
+}
+#bt1{
+  position: absolute;
+  width: 163px;
+  height: 48px;
+  left: 344px;
+  top: 208px;
+
+  background: #5F5F5F;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+#bt2{
+  position: absolute;
+  width: 163px;
+  height: 48px;
+  left: 839px;
+  top: 208px;
+
+  background: #5F5F5F;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 8px
+}
+.datepicker{
+  position: absolute;
+  width: 350px;
+  height: 48px;
+  left: 67px;
+  top: 427px;
+
+  background: #5F5F5F;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+#msg{
+  position: absolute;
+  width: 406px;
+  height: 21px;
+  left: 85px;
+  bottom: -730px;
+
+  font-family: Mulish, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.4px;
+
+  color: #000000;
+}
+
+
+
+#candidatename {
+  position: absolute;
+  width: 187px;
+  height: 21px;
+  left: 70px;
+  top: 113px;
+
+  font-family: Mulish, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #363740;
+}
+#contacts{
+
+  position: absolute;
+  width: 231.81px;
+  height: 21px;
+  left: 68.36px;
+  top: 191px;
+
+  font-family: Mulish, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #363740;
+}
+#emailid{
+
+  position: absolute;
+  width: 196.2px;
+  height: 21px;
+  left: 69.49px;
+  top: 264px;
+
+  font-family: Mulish, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #363740;
+}
+#internduration{
+
+  position: absolute;
+  width: 211px;
+  height: 21px;
+  left: 69px;
+  top: 337px;
+
+  font-family: Mulish, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #363740;
+
+}
+#teams{
+
+  position: absolute;
+  width: 190px;
+  height: 21px;
+  left: 69px;
+  top: 482px;
+
+  font-family: Mulish, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #363740;
+}
+#payments{
+  position: absolute;
+  width: 190px;
+  height: 21px;
+  left: 69px;
+  top: 553px;
+
+  font-family: Mulish, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #363740;
+}
+#experiences{
+
+  position: absolute;
+  width: 190px;
+  height: 21px;
+  left: 69px;
+  top: 627px;
+
+  font-family: Mulish, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #363740;
+}
+#collegenames{
+
+  position: absolute;
+  width: 242px;
+  height: 19px;
+  left: 561px;
+  top: 115px;
+
+  font-family: Mulish, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #363740;
+
+}
+#collegecontacts{
+
+  position: absolute;
+  width: 231.81px;
+  height: 21px;
+  left: 561px;
+  top: 188px;
+
+  font-family: Mulish, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #363740;
+}
+#collegeadres{
+  position: absolute;
+  width: 242px;
+  height: 19px;
+  left: 560px;
+  top: 258px;
+
+  font-family: Mulish, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #363740;
+}
+#candiaddres{
+  position: absolute;
+  width: 316px;
+  height: 19px;
+  left: 560px;
+  top: 375px;
+
+  font-family: Mulish, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #363740;
+}
+
+#datepickers{
+  position: absolute;
+  width: 96px;
+  height: 20px;
+  left: 69px;
+  top: 410px;
+
+  font-family: Poppins, serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 19px;
+
+
+  color: #363740;
+}
+#date{
+  position: absolute;
+  width: 268px;
+  height: 48px;
+  left: 67px;
+  top: 427px;
+
+  background: #EAEAEA;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+#rule{
+
+  position: absolute;
+  width: 1120px;
+  height: 9px;
+  left: 2px;
+  top: 63px;
+
+  background: #363740;
+}
+#title{
+
+  position: absolute;
+  height: 24px;
+  left: 32px;
+  right: 690px;
+  top: 27px;
+
+
+  font-family: Mulish, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+
+
+  letter-spacing: 0.4px;
+
+  color: #252733;
+}
+#rule2{
+  position: absolute;
+  width: 1120px;
+  height: 9px;
+  left: 2px;
+  top: 880px;
+
+  background: #363740;
+}
+#candidatedocs{
+  position: absolute;
+  height: 24px;
+  left: 33px;
+  right: 689px;
+  top: 830px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 24px;
+
+  letter-spacing: 0.4px;
+
+
+  color: #252733;
+}
+#stat{
+  position: absolute;
+  width: 188px;
+  height: 49px;
+  left: 558px;
+  top: 514px;
+
+  background: #EAEAEA;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+#statusname{
+  position: absolute;
+  width: 89px;
+  height: 19px;
+  left: 560px;
+  top: 490px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+
+  color: #363740;
+}
+#picture{
+  position: absolute;
+  width: 178px;
+  height: 21px;
+  left: 98px;
+  top: 916px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.4px;
+
+  color: #000000;
+}
+#docs{
+  position: absolute;
+  width: 41px;
+  height: 21px;
+  left: 580px;
+  top: 916px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.4px;
+
+  color: #000000;
+}
+#aadhar{
+  position: absolute;
+  width: 62px;
+  height: 21px;
+  left: 98px;
+  top: 1144px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.4px;
+
+  color: #000000;
+}
+#pan{
+  position: absolute;
+  width: 36px;
+  height: 21px;
+  left: 580px;
+  top: 1144px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.4px;
+
+  color: #000000;
+}
+#pictureupload{
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 135px;
+  top: 980px;
+
+  border: 1px dashed #0041E8;
+  box-sizing: border-box;
+align-content: center;
+  text-align: center;
+  padding-top: 40px;
+  color: #0041E8;
+  font-size: 20px;
+}
+#uploadbtn{
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+
+#joiningletter{
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 617px;
+  top: 980px;
+
+  border: 1px dashed #0041E8;
+  box-sizing: border-box;
+  align-content: center;
+  text-align: center;
+  padding-top: 40px;
+  color: #0041E8;
+  font-size: 20px;
+}
+#joiningletterbtn{
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+#resume{
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 753px;
+  top: 980px;
+
+  border: 1px dashed #0041E8;
+  box-sizing: border-box;
+  align-content: center;
+  text-align: center;
+  padding-top: 40px;
+  color: #0041E8;
+  font-size: 20px;
+}
+#resumebtn{
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+#noc{
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 885px;
+  top: 980px;
+
+  border: 1px dashed #0041E8;
+  box-sizing: border-box;
+  align-content: center;
+  text-align: center;
+  padding-top: 40px;
+  color: #0041E8;
+  font-size: 20px;
+}
+#nocbtn{
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+#frontaadhar{
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 135px;
+  top: 1200px;
+
+  border: 1px dashed #0041E8;
+  box-sizing: border-box;
+  align-content: center;
+  text-align: center;
+  padding-top: 40px;
+  color: #0041E8;
+  font-size: 20px;
+}
+#frontaadharbtn{
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+#backaadhar{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 271px;
+  top: 1200px;
+
+  border: 1px dashed #0041E8;
+  box-sizing: border-box;
+  align-content: center;
+  text-align: center;
+  padding-top: 40px;
+  color: #0041E8;
+  font-size: 20px;
+}
+#backaadharbtn{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+#frontpan{
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 617px;
+  top: 1205px;
+
+  border: 1px dashed #0041E8;
+  box-sizing: border-box;
+  align-content: center;
+  text-align: center;
+  padding-top: 40px;
+  color: #0041E8;
+  font-size: 20px;
+}
+#frontpanbtn{
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+#backpan{
+
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 753px;
+  top: 1200px;
+
+  border: 1px dashed #0041E8;
+  box-sizing: border-box;
+  align-content: center;
+  text-align: center;
+  padding-top: 40px;
+  color: #0041E8;
+  font-size: 20px;
+}
+#backpanbtn{
+  position: absolute;
+  width: 105px;
+  height: 105px;
+  left: 0px;
+  top: 0px;
+  opacity: 0;
+}
+#front{
+  position: absolute;
+  width: 43px;
+  height: 21px;
+  left: 166px;
+  top: 1180px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.4px;
+
+  color: #7E7E7E;
+}
+#back{
+  position: absolute;
+  width: 41px;
+  height: 21px;
+  left: 303px;
+  top: 1180px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.4px;
+
+  color: #7E7E7E;
+}
+#pfront{
+  position: absolute;
+  width: 43px;
+  height: 21px;
+  left: 648px;
+  top: 1182px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.4px;
+
+  color: #7E7E7E;
+}
+#pback{
+  position: absolute;
+  width: 41px;
+  height: 21px;
+  left: 785px;
+  top: 1182px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.4px;
+
+  color: #7E7E7E;
+}
+#joinletter{
+  position: absolute;
+  width: 109px;
+  height: 21px;
+  left: 616px;
+  top: 952px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.4px;
+
+  color: #7E7E7E;
+}
+#resumedoc{
+  position: absolute;
+  width: 66px;
+  height: 21px;
+  left: 772px;
+  top: 952px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.4px;
+
+  color: #7E7E7E;
+}
+#nocdoc{
+  position: absolute;
+  width: 39px;
+  height: 21px;
+  left: 918px;
+  top: 952px;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.4px;
+
+  color: #7E7E7E;
+}
