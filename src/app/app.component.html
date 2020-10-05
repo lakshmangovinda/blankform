@@ -66,7 +66,7 @@
      <div >
        <p id="datepickers">SelectStartingDate*</p>
     <label for="date"></label>
-  <input type="date" id="date" name="birthday">
+  <input type="date" id="date" name="date">
   </div>
       <div >
         <p id="teams">Select Team*</p><label for="team"></label><select id="team" name="Team" formControlName="team">
@@ -164,7 +164,8 @@
       <p id="candidatedocs">Candidate Documents</p>
 <div id="rule2"></div>
 <p id="picture">Upload Picture</p>
-      <div id="pictureupload"><input id="uploadbtn" type="file" formControlName="pictureupload" accept="image/*" (change)="preview($event)"><p>+</p></div>
+      <div class="pictureupload">+<input #Image id="uploadbtn" type="file" formControlName="pictureupload" (change)="imagepreview($event.target.files)">
+        <img *ngIf="imageurl"  [src]="imageurl" class="=photo" style="margin-top: -55px; width: 97px"></div>
 
 <p id="docs">Docs</p>
 <p id="joinletter">Joining Letter</p>
@@ -175,9 +176,11 @@
         <div id="noc"><input id="nocbtn" type="file" formControlName="noc"><p>+</p></div>
 <p id="aadhar">Aadhar</p>
       <p id="front">front</p>
-      <div id="frontaadhar"><input  id="frontaadharbtn" type="file" formControlName="frontaadhar"><p>+</p></div>
+      <div id="frontaadhar">+<input #Image id="frontaadharbtn" type="file" formControlName="frontaadhar" (change)="aadharfrontpreview($event.target.files)">
+        <img *ngIf="frontaadharurl"  [src]="frontaadharurl" class="=aadharfront" style="margin-top: -55px; width: 97px"></div>
       <p id="back">back</p>
-      <div id="backaadhar"><input id="backaadharbtn" type="file" formControlName="backaadhar"><p>+</p></div>
+      <div id="backaadhar">+<input id="backaadharbtn" type="file" formControlName="backaadhar" (change)="aadharbackpreview($event.target.files)">
+        <img *ngIf="backaadharurl"  [src]="backaadharurl" class="=aadharfront" style="margin-top: -55px; width: 97px"></div>
 <p id="pan">Pan</p>
       <p id="pfront">front</p>
        <div id="frontpan"><input id="frontpanbtn" type="file" formControlName="frontpan"><p>+</p></div>
@@ -186,3 +189,78 @@
       <p id="msg">confirm all the filled data before submitting</p>
       <button id="btns" type="submit" class="btn btn-dark" (click)="submit(form.value)">Submit</button>
     </form>
+
+
+<p id="internship">Internship</p>
+<div>
+  <label for="dropdown"></label><select name="stat" id="dropdown">
+  <option value="">SortBy</option>
+  <option value="all">All</option>
+  <option value="name"> Name</option>
+  <option value="bydate">bydate</option>
+</select>
+</div>
+<button id="create">create new</button>
+
+
+<div  id="datatable">
+  <mat-table #table [dataSource]="dataSource">
+
+    <ng-container matColumnDef="position">
+      <mat-header-cell *matHeaderCellDef> No. </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.position}} </mat-cell>
+    </ng-container>
+
+
+    <ng-container matColumnDef="candidateName">
+      <mat-header-cell *matHeaderCellDef> candidatename </mat-header-cell>
+      <mat-cell *matCellDef="let element">{{element.candidatename}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Contact">
+      <mat-header-cell *matHeaderCellDef> Contact </mat-header-cell>
+      <mat-cell *matCellDef="let element">{{element.email}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Type">
+      <mat-header-cell *matHeaderCellDef> Type </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.Type}} </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="Team">
+      <mat-header-cell *matHeaderCellDef> Team </mat-header-cell>
+      <mat-cell *matCellDef="let element"> {{element.Team}} </mat-cell>
+    </ng-container>
+
+    <ng-container matColumnDef="Experience">
+      <mat-header-cell *matHeaderCellDef> Experience </mat-header-cell>
+      <mat-cell *matCellDef="let element">{{element.Experience}}  </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="Hired Date">
+      <mat-header-cell *matHeaderCellDef> Hireddate </mat-header-cell>
+      <mat-cell *matCellDef="let element">{{element.Hireddate}}  </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="Duration">
+      <mat-header-cell *matHeaderCellDef> duration </mat-header-cell>
+      <mat-cell *matCellDef="let element">{{element.Duration}}  </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="status">
+      <mat-header-cell *matHeaderCellDef> status </mat-header-cell>
+      <mat-cell *matCellDef="let element">{{element.status}}  </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="stipend">
+      <mat-header-cell *matHeaderCellDef> stipend </mat-header-cell>
+      <mat-cell *matCellDef="let element">{{element.stipend}}  </mat-cell>
+    </ng-container>
+    <ng-container matColumnDef="Action">
+      <mat-header-cell *matHeaderCellDef> Action </mat-header-cell>
+      <mat-cell *matCellDef="let element">{{element.Action}}  </mat-cell>
+    </ng-container>
+
+    <mat-header-row *matHeaderRowDef="displayedColumns"></mat-header-row>
+    <mat-row *matRowDef="let row; columns: displayedColumns;"></mat-row>
+  </mat-table>
+
+  <mat-paginator [length]="5" [pageSize]="5" [pageSizeOptions]="[5, 10, 25]"></mat-paginator>
+</div>
+
+
